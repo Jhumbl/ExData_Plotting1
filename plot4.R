@@ -26,7 +26,7 @@ legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_
 #--------------------
 plot(dateTime, datasub$Voltage, xlab = "datetime", ylab = "Voltage", type = "l")
 
-# Plot Bottom Left
+# Plot Bottom Right
 #--------------------
 plot(dateTime, datasub$Global_reactive_power, xlab = "datetime", ylab = "Global_reactive_power", type = "l")
 
